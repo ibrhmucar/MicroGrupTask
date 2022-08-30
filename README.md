@@ -31,7 +31,7 @@
       * Kullanıcı silme (Pozitif),
       * Kullanıcı silememe (Negatif),
       
- * <h3> Testlerin bağımsız çalıştırıması hataya sebebiyet verebilir.     
+ * <h3> Not : Testlerin bağımsız çalıştırılması hataya sebebiyet verebilir.     
       
 -----
 
