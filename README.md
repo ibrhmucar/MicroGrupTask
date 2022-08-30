@@ -15,3 +15,32 @@
 * Siteden logout yapılarak çıkış sağlanacak.
 
 * Tüm bu adımların ekran görüntüsü rapora eklenecektir.
+
+---
+
+# <h2 align="center"> API Testi İçin 
+
+* Test klasörü altında bulunun TestApi isimli dosya açılır ve TestApi isimli test çalıştırılır. Testler pozitif ve negatif senaryo içermektedir. (CRUD)
+      
+      * Kullanıcı oluştur (Pozitif),
+      * Kullanıcı oluştur (Negatif),
+      * Oluşturulan kullancı bilgilerini Update et(Pozitif),
+      * Oluşturulan kullancı bilgilerini Update edememe(Negatif),
+      * Oluşturulan kullanıcıyı bulma (Pozitif),
+      * Oluşturulan kullanıcıyı bulamama (Negatif),
+      * Kullanıcı silme (Pozitif),
+      * Kullanıcı silememe (Negatif),
+      
+ * <h3> Testlerin bağımsız çalıştırıması hataya sebebiyet verebilir.     
+      
+-----
+
+# <h2 align="center"> UI Testi İçin
+
+* Test klasörü altında bulunan HomePageTest dosyası içerisinde bulunan "HomePageTest" veya "MicroGrupTest" metotları çalıştırılır.
+* Test sonunda report.html dosyasından test sonuçlarına ulaşılabilir. 
+
+
+
+
+
