@@ -82,7 +82,10 @@ public class TestBase {
             String screenShotPath = Utils.getScreenshot(result.getName());
 
             //add your screenshot to your report
-            extentLogger.addScreenCaptureFromPath(screenShotPath);
+            String failed = Utils.captureScreenShot();
+            report.createTest("Failed Step").fail("Failed").addScreenCaptureFromBase64String(failed);
+
+
 
             //capture the exception and put inside the report
             extentLogger.fail(result.getThrowable());
